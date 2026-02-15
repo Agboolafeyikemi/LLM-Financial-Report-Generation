@@ -25,8 +25,8 @@ The goal is to streamline the report generation process, providing data-driven i
 1.  **Clone the Repository:**
 
     ```bash
-    git clone https://github.com/voidbydefault/LLM_Financial_Report_Generator.git
-    cd LLM_Financial_Report_Generator
+    git clone https://github.com/Agboolafeyikemi/LLM-Financial-Report-Generation
+    cd LLM-Financial-Report-Generation
     ```
 
 2.  **Create and Activate a Virtual Environment (Recommended):**

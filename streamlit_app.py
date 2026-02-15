@@ -34,7 +34,6 @@ st.markdown("""
     .main-header {
         font-size: 2.5rem;
         font-weight: bold;
-        color: #1f77b4;
         text-align: center;
         margin-bottom: 2rem;
     }
@@ -271,24 +270,7 @@ def main():
                 progress_bar.progress(40)
                 
                 report_md = generate_report(file_path, output_dir, selected_model, temperature, max_tokens)
-                print(report_md)
-                print(type(report_md), 'TEST')
-                print("--------------------------------")
-                # print(report_md is None)
-                # print(type(report_md is None))
-                # print("--------------------------------")
-                # print(report_md is not None)
-                # print(type(report_md is not None))
-                # print("--------------------------------")
-                # print(report_md is not None)
-                # print(type(report_md is not None))
-                # print("--------------------------------")
-                # print(report_md is not None)
-                # print(type(report_md is not None))
-                # print("--------------------------------")
-                # print(report_md is not None)
-                # print(type(report_md is not None))
-                # print("--------------------------------")
+              
 
                 if report_md:
                     progress_bar.progress(70)
